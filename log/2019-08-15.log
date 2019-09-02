@@ -1,0 +1,40 @@
+2019-08-15 14:02:24,072 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:136] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 122, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:02:30,787 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:136] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 122, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:04:06,684 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:137] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 123, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:04:14,142 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:137] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 123, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:05:24,073 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:138] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 124, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:05:29,843 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:138] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 124, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:07:23,201 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:139] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 125, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range
+2019-08-15 14:07:27,086 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py[line:139] - ERROR: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\Base.py", line 125, in get_mail_href_re
+    response = requests.get(item_href_ensure[0][2])
+IndexError: list index out of range

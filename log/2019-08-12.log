@@ -1,0 +1,75 @@
+2019-08-12 11:30:41,875 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\GetCookieStr.py[line:48] - ERROR: Message: no such element: Unable to locate element: {"method":"id","selector":"login-passwd"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=70.0.3538.97 (d035916fe243477005bc95fe2a5778b8f20b6ae1),platform=Windows NT 6.1.7601 SP1 x86_64)
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\GetCookieStr.py", line 27, in get_cookie_str
+    browser.find_element_by_id("login-passwd").send_keys(self.passWord)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"login-passwd"}
+  (Session info: headless chrome=70.0.3538.110)
+  (Driver info: chromedriver=70.0.3538.97 (d035916fe243477005bc95fe2a5778b8f20b6ae1),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-08-12 13:16:13,173 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: I/O operation on closed file.
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 12, in simulate_login
+    print(2)
+ValueError: I/O operation on closed file.
+2019-08-12 13:21:03,290 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: 'gbk' codec can't decode byte 0xae in position 10052: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 21, in simulate_login
+    return resp.read().decode(self.encoding)
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xae in position 10052: illegal multibyte sequence
+2019-08-12 13:21:31,008 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: 'gbk' codec can't decode byte 0xae in position 12040: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 21, in simulate_login
+    return resp.read().decode(self.encoding)
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xae in position 12040: illegal multibyte sequence
+2019-08-12 13:24:56,679 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: 'gb18030' codec can't decode byte 0x9a in position 10323: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 21, in simulate_login
+    return resp.read().decode(self.encoding)
+UnicodeDecodeError: 'gb18030' codec can't decode byte 0x9a in position 10323: illegal multibyte sequence
+2019-08-12 13:25:04,406 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: 'gb18030' codec can't decode byte 0x9a in position 12316: illegal multibyte sequence
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 21, in simulate_login
+    return resp.read().decode(self.encoding)
+UnicodeDecodeError: 'gb18030' codec can't decode byte 0x9a in position 12316: illegal multibyte sequence
+2019-08-12 13:26:18,340 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: I/O operation on closed file.
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 12, in simulate_login
+    print(2)
+ValueError: I/O operation on closed file.
+2019-08-12 14:09:51,556 - C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py[line:23] - ERROR: HTTP Error 502: Server Hangup
+Traceback (most recent call last):
+  File "C:\Users\0923\Desktop\oa账号管理改版\SimulateLogIn\SimulateLogInLib\SimulateLogIn.py", line 19, in simulate_login
+    resp = request.urlopen(req)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 563, in error
+    result = self._call_chain(*args)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 755, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\0923\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 502: Server Hangup
